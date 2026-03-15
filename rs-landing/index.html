@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>RSU Ponorogo Sejahtera - Layanan Kesehatan Profesional</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#059669",
+                        "background-light": "#f6f8f7",
+                        "background-dark": "#064e3b",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 transition-colors duration-300">
+<div class="relative flex min-h-screen flex-col overflow-x-hidden">
+<!-- Navigation -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">local_hospital</span>
+<h1 class="text-xl font-bold tracking-tight">RSU Ponorogo <span class="text-primary">Sejahtera</span></h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Beranda</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#services">Layanan</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#doctors">Dokter</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#news">Berita</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#contact">Kontak</a>
+</nav>
+<div class="flex items-center gap-4">
+<div class="hidden lg:flex relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">search</span>
+<input class="rounded-full bg-slate-100 dark:bg-slate-800 border-none pl-10 pr-4 py-2 text-sm focus:ring-2 focus:ring-primary w-48" placeholder="Cari layanan..." type="text"/>
+</div>
+<button class="bg-primary text-white px-5 py-2 rounded-full font-bold text-sm flex items-center gap-2 hover:brightness-110 transition-all shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined text-lg">emergency</span>
+                        IGD: 119
+                    </button>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative px-6 py-12 md:py-24">
+<div class="mx-auto max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="flex flex-col gap-8 order-2 lg:order-1">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider w-fit">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+                        Dukungan Medis Profesional 24/7
+                    </div>
+<h2 class="text-5xl md:text-6xl font-black leading-[1.1] tracking-tight">
+                        Keunggulan dalam <span class="text-primary">Layanan Kesehatan</span> untuk Keluarga Anda
+                    </h2>
+<p class="text-lg text-slate-600 dark:text-slate-400 leading-relaxed max-w-xl">
+                        Menyediakan perawatan medis komprehensif dengan teknologi canggih dan tenaga ahli yang berdedikasi. Kesehatan Anda adalah prioritas kami setiap waktu.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-xl transition-all">
+                            Buat Janji Temu
+                        </button>
+<button class="bg-slate-200 dark:bg-slate-800 px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-300 dark:hover:bg-slate-700 transition-all">
+                            Spesialis Kami
+                        </button>
+</div>
+</div>
+<div class="order-1 lg:order-2">
+<div class="aspect-square rounded-3xl overflow-hidden shadow-2xl relative group">
+<div class="absolute inset-0 bg-primary/10 mix-blend-multiply transition-opacity group-hover:opacity-0"></div>
+<img alt="Lobi fasilitas rumah sakit modern dengan cahaya matahari" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmyE3kWaL2QZoFsMfwHp23D6M99HJfL0QTs9km5XlaDdWXOkmsxMl4O6CKEVEyuzRNTNW96P6Vf5i7S9aGsk87IpxMalDI1r8kLOzQdzvRkMnrElJJ0Eg-3jsLUAbvqde7PoXA8IytQO1TUAzQ_aJjaI3CWtGx_bbU1Vu8DZKC1xgcgu_MF9NKVvyvlKe9pcPb6zwMvWP6pPqVF55HgLhUQzgCKoGQvb25SnHy5wGd6BsC3reNOTYmIcH9wPZBGi4YpMIeKLQOyALA"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick Links -->
+<section class="px-6 -mt-12 relative z-10">
+<div class="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-800 flex flex-col gap-4 group hover:border-primary transition-colors">
+<div class="bg-primary/10 p-3 rounded-lg w-fit text-primary">
+<span class="material-symbols-outlined text-3xl">event_available</span>
+</div>
+<h3 class="text-xl font-bold">Janji Temu</h3>
+<p class="text-slate-500 text-sm">Tanpa antre. Atur jadwal kunjungan dengan spesialis kami secara online dalam hitungan menit.</p>
+<a class="mt-2 flex items-center gap-2 text-primary font-bold group-hover:gap-4 transition-all" href="#">Jadwalkan Sekarang <span class="material-symbols-outlined">arrow_forward</span></a>
+</div>
+<div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-800 flex flex-col gap-4 group hover:border-primary transition-colors">
+<div class="bg-primary/10 p-3 rounded-lg w-fit text-primary">
+<span class="material-symbols-outlined text-3xl">person_search</span>
+</div>
+<h3 class="text-xl font-bold">Cari Dokter</h3>
+<p class="text-slate-500 text-sm">Cari melalui direktori kami yang berisi lebih dari 100+ tenaga ahli medis dan spesialis.</p>
+<a class="mt-2 flex items-center gap-2 text-primary font-bold group-hover:gap-4 transition-all" href="#">Cari Tenaga Ahli <span class="material-symbols-outlined">arrow_forward</span></a>
+</div>
+<div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-800 flex flex-col gap-4 group hover:border-primary transition-colors">
+<div class="bg-primary/10 p-3 rounded-lg w-fit text-primary">
+<span class="material-symbols-outlined text-3xl">history_edu</span>
+</div>
+<h3 class="text-xl font-bold">Rekam Medis</h3>
+<p class="text-slate-500 text-sm">Akses hasil laboratorium dan riwayat medis Anda dengan aman dari rumah.</p>
+<a class="mt-2 flex items-center gap-2 text-primary font-bold group-hover:gap-4 transition-all" href="#">Akses Portal <span class="material-symbols-outlined">arrow_forward</span></a>
+</div>
+</div>
+</section>
+<!-- Services -->
+<section class="px-6 py-24 bg-slate-50 dark:bg-background-dark/50" id="services">
+<div class="mx-auto max-w-7xl">
+<div class="flex flex-col md:flex-row justify-between items-end gap-6 mb-16">
+<div class="flex flex-col gap-4 max-w-2xl">
+<h2 class="text-primary font-bold tracking-widest uppercase text-sm">Departemen Kami</h2>
+<h3 class="text-4xl font-black">Layanan Komprehensif yang Disesuaikan untuk Anda</h3>
+</div>
+<button class="bg-primary/10 text-primary px-6 py-3 rounded-lg font-bold hover:bg-primary/20 transition-all">Lihat Semua Layanan</button>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="flex flex-col gap-4 group">
+<div class="aspect-video rounded-xl overflow-hidden mb-2">
+<img alt="Peralatan radiologi modern" class="w-full h-full object-cover transition-transform group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5fNNxm9Y12iJCdvNLML8QstJ35-W41rCblK7y2WzrQLzJX7qt3m5r5bhEJpPzEWMY0iOkr69XSNaVJUGlp5QDhwSVkXNWk-WUp_IOK6o55dBuHT58RaFOyXSqxxKkrIObQl105uHA2-1yp5UJgnah-tEdl5qWbTGIcjj9tX2xIBayfzO7x7C1A98gFu5Q5XleYCHIU346wYMPHx_v-JL7Ap9QMbBKfICQ4Ec81a4-ukvL0s3ltlZqkatj5jD822zxH8EfCdOG9iCM"/>
+</div>
+<h4 class="text-xl font-bold">Radiologi</h4>
+<p class="text-slate-500 text-sm leading-relaxed">Pencitraan diagnostik tingkat lanjut termasuk MRI, CT Scan, dan Rontgen Digital dengan presisi tinggi.</p>
+</div>
+<div class="flex flex-col gap-4 group">
+<div class="aspect-video rounded-xl overflow-hidden mb-2">
+<img alt="Perawatan ruang gawat darurat" class="w-full h-full object-cover transition-transform group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6fi0nxsddfGCUR8jAc7VzqsjFld0AVUkJfwZp_uueDKUn6h4ISjOnyD6zBLLa0CVWWI1vEJu35fC38cTEBBOvj6QwxpDc4TW-Nc_PD7BpWQvOY9c3SRbi0_64RYOh5Ec16Amw8X2ceRgIy_2rTXEVMsS5b4amo0Iw8xqEbM6CW0Ga2EhDFw4ELMLAkRm7uZdYvCQSGdDKJtE36zTidLrivrqRXJNxkIMN6jjGtM4iCWaO0d7oERQW4gDevnhSs5LVnPGqvUoB4bjy"/>
+</div>
+<h4 class="text-xl font-bold">Gawat Darurat 24/7</h4>
+<p class="text-slate-500 text-sm leading-relaxed">Respon perawatan kritis yang cepat untuk kondisi mengancam jiwa, tersedia sepanjang waktu.</p>
+</div>
+<div class="flex flex-col gap-4 group">
+<div class="aspect-video rounded-xl overflow-hidden mb-2">
+<img alt="Alat departemen kardiologi" class="w-full h-full object-cover transition-transform group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcQpgtsiMYz5DPo-D_2nOI5vuw6GCcv3a1n7DJVkl0fZE8BsCGi_KzhAIozYsN5a25B0h-aBM3Z4kJmuzGf6efPYcYOlGrK1WQrVWCd6hpIvAVJt6g_JdkKIczh7Rr59ZxeVqYkVesHOZY5WvNE3ourR7LcKuP6fjHIhKGh6WJIWcTeU53o9nbg1D0_AOUh8Hz56XYUaxdTpC8KB6NOnpRBrulS9BMIp6qOrOyHwje8tWxufOM45peF-cEBgLi-EEMH8oHGDQeSPTO"/>
+</div>
+<h4 class="text-xl font-bold">Kardiologi</h4>
+<p class="text-slate-500 text-sm leading-relaxed">Perawatan khusus kesehatan jantung termasuk skrining, operasi, dan program rehabilitasi.</p>
+</div>
+<div class="flex flex-col gap-4 group">
+<div class="aspect-video rounded-xl overflow-hidden mb-2">
+<img alt="Bangsal pediatrik" class="w-full h-full object-cover transition-transform group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQmSARZQnR0pe93JIEni0vsRxTCrMIxXHlKmQ96-aXuNFEjLdTvBtQzV4SzDFjAForW4k3U4wHoJ9dZb1joy5GE6-f_TiVZmH97m_P5U74UCmwUvBOkQ-qLYS4aTQ8R1CsFxTqg85YT1jibalmYVRh8Erdev8tlA_dsojMWi-TkhE74xOKZfBzoqNAQqU6yDuylesM4cKwT80vT_xJca8ZLfGdvSbxkDVlLXxCbProcg9Adq45YAsgj0h8yzHh_SZdx8gNKNhpD1m2"/>
+</div>
+<h4 class="text-xl font-bold">Pediatri</h4>
+<p class="text-slate-500 text-sm leading-relaxed">Perawatan khusus untuk bayi baru lahir, anak-anak, dan remaja dalam lingkungan yang ramah anak.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us -->
+<section class="px-6 py-24 overflow-hidden">
+<div class="mx-auto max-w-7xl">
+<div class="bg-background-dark text-slate-100 rounded-[3rem] p-12 lg:p-20 relative overflow-hidden flex flex-col lg:flex-row gap-16 items-center">
+<div class="absolute top-0 right-0 w-96 h-96 bg-primary/20 blur-[100px] -mr-48 -mt-48 rounded-full"></div>
+<div class="flex-1 flex flex-col gap-8 relative z-10">
+<h2 class="text-primary font-bold text-sm tracking-widest uppercase">Mengapa Memilih Kami</h2>
+<h3 class="text-4xl md:text-5xl font-black">Pemimpin dalam Keunggulan Medis &amp; Perawatan Pasien</h3>
+<div class="space-y-6">
+<div class="flex gap-4">
+<div class="bg-primary/20 p-2 rounded-full h-fit mt-1">
+<span class="material-symbols-outlined text-primary">verified</span>
+</div>
+<div>
+<h5 class="font-bold text-lg mb-1">Spesialis Terakreditasi</h5>
+<p class="text-slate-400 text-sm">Dokter kami diakui secara global dan bersertifikat dalam bidang medis masing-masing.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="bg-primary/20 p-2 rounded-full h-fit mt-1">
+<span class="material-symbols-outlined text-primary">biotech</span>
+</div>
+<div>
+<h5 class="font-bold text-lg mb-1">Teknologi Modern</h5>
+<p class="text-slate-400 text-sm">Dilengkapi dengan alat diagnostik dan bedah terbaru untuk hasil medis yang lebih presisi.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="bg-primary/20 p-2 rounded-full h-fit mt-1">
+<span class="material-symbols-outlined text-primary">volunteer_activism</span>
+</div>
+<div>
+<h5 class="font-bold text-lg mb-1">Pendekatan Berpusat pada Pasien</h5>
+<p class="text-slate-400 text-sm">Kami merawat manusia, bukan sekadar gejala. Kenyamanan dan perjalanan pemulihan Anda dipersonalisasi.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="flex-1 grid grid-cols-2 gap-4 relative z-10">
+<div class="bg-slate-800/50 backdrop-blur-md p-8 rounded-3xl border border-slate-700 flex flex-col items-center justify-center text-center gap-2 mt-8">
+<span class="text-4xl font-black text-primary">15rb+</span>
+<span class="text-xs text-slate-400 font-medium uppercase tracking-widest">Pasien Puas</span>
+</div>
+<div class="bg-primary p-8 rounded-3xl flex flex-col items-center justify-center text-center gap-2 text-white">
+<span class="text-4xl font-black">120+</span>
+<span class="text-xs font-bold uppercase tracking-widest opacity-80">Dokter</span>
+</div>
+<div class="bg-slate-800/50 backdrop-blur-md p-8 rounded-3xl border border-slate-700 flex flex-col items-center justify-center text-center gap-2">
+<span class="text-4xl font-black text-primary">25+</span>
+<span class="text-xs text-slate-400 font-medium uppercase tracking-widest">Spesialisasi</span>
+</div>
+<div class="bg-slate-800/50 backdrop-blur-md p-8 rounded-3xl border border-slate-700 flex flex-col items-center justify-center text-center gap-2 -mt-8">
+<span class="text-4xl font-black text-primary">98%</span>
+<span class="text-xs text-slate-400 font-medium uppercase tracking-widest">Tingkat Keberhasilan</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- News -->
+<section class="px-6 py-24" id="news">
+<div class="mx-auto max-w-7xl">
+<div class="text-center mb-16 flex flex-col items-center gap-4">
+<h2 class="text-primary font-bold tracking-widest uppercase text-sm">Kesehatan &amp; Kebugaran</h2>
+<h3 class="text-4xl font-black">Wawasan Medis Terbaru</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<article class="flex flex-col gap-4 group cursor-pointer">
+<div class="aspect-[16/10] rounded-2xl overflow-hidden mb-2">
+<img alt="Gaya hidup makan sehat" class="w-full h-full object-cover group-hover:scale-105 transition-transform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6bee3e96xoPW1peJf3GwWLloMI1NWKbs4cQCKIRN3Whsp3CWoSuVwqiXasi3mu4_WK6s5iTiU4LzNd4J5nOUEHRtHCyDSKFIq4HpYZ4kIWUELEipcH0qHen-fQ5vZV0wksZ7pNwYi9PXkiT4Dd2RpBc1NV5ojmmDkzw7ZS7Vu2tijTslc0tgCSqYvj0-1ysQIDggL61ROUgwwaFtOZH7bxmrAyX3UDHBPlFp8UZNe5O88aVMHFZ5kFhadn2axhgQuPQWsMKLgf8mq"/>
+</div>
+<div class="flex items-center gap-3 text-xs font-bold text-slate-400">
+<span class="text-primary">Nutrisi</span>
+<span>•</span>
+<span>24 Okt 2023</span>
+</div>
+<h4 class="text-xl font-bold leading-snug group-hover:text-primary transition-colors">Bagaimana Diet Seimbang Mendukung Sistem Kekebalan Tubuh Anda</h4>
+<p class="text-slate-500 text-sm line-clamp-2">Temukan 10 makanan super teratas yang terbukti secara medis dapat meningkatkan energi dan kesehatan harian Anda.</p>
+</article>
+<article class="flex flex-col gap-4 group cursor-pointer">
+<div class="aspect-[16/10] rounded-2xl overflow-hidden mb-2">
+<img alt="Proses vaksinasi" class="w-full h-full object-cover group-hover:scale-105 transition-transform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtbinb2YNT__755fsgZb-9hFZXxO94pvwKPPgPbwhjbYWYVON7YYfgJQNWPhTt9ZfE_4y4hQDw6MgVP3JKV6ZMGCUb80t_bq15qigSfgOrDzUzXWFGK3LbRaQycyMIbe32KM1Osl0SRWvpv8Cd2-fhZvEDNIWW5JknQH8l224RVr_1YxIQ7M5PqDoHZYZkaW1vdGk3gdXKSYgSxccW5sFOj7ctBAGlfwTd2gU80EAPoWhjztbXwFmqB6zsYcA-uqt4Mu8mMCz99o17"/>
+</div>
+<div class="flex items-center gap-3 text-xs font-bold text-slate-400">
+<span class="text-primary">Pencegahan</span>
+<span>•</span>
+<span>20 Okt 2023</span>
+</div>
+<h4 class="text-xl font-bold leading-snug group-hover:text-primary transition-colors">Bersiap Menghadapi Musim Flu: Panduan Vaksinasi Terbaru</h4>
+<p class="text-slate-500 text-sm line-clamp-2">Apa yang perlu Anda ketahui tentang musim flu mendatang dan cara melindungi keluarga Anda secara efektif.</p>
+</article>
+<article class="flex flex-col gap-4 group cursor-pointer">
+<div class="aspect-[16/10] rounded-2xl overflow-hidden mb-2">
+<img alt="Bedah robotik" class="w-full h-full object-cover group-hover:scale-105 transition-transform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSGzuLbPbMaKnC4ZOHkkd6yYOfQlBO81txNUsRw3Qgw-_SS6oZIHTRiXfxLoSIWK571GPHDHsYJSt86w46J9TJsN9PAAxoiIcg2XL5czS0ojmpZNlFxFUcoGMOnB80BM_jww67VwN_zGGm0j6HhgVmzVkqMW_efBdcu4YQ-yveovJ7_mqvgd5QaTIzdA1zp9ALbqd7e5kAUz1e1RygShiSHr3TDq1hj-_NLXYCjEBSM3bVHSf4Vj_LYaRskkWszr-fiE0xhF7ltPOI"/>
+</div>
+<div class="flex items-center gap-3 text-xs font-bold text-slate-400">
+<span class="text-primary">Teknologi</span>
+<span>•</span>
+<span>15 Okt 2023</span>
+</div>
+<h4 class="text-xl font-bold leading-snug group-hover:text-primary transition-colors">RSU Ponorogo Memperkenalkan Bedah Berbantuan Robotik</h4>
+<p class="text-slate-500 text-sm line-clamp-2">Pelajari bagaimana alat robotik baru kami membuat operasi kompleks lebih aman dan waktu pemulihan lebih cepat.</p>
+</article>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-slate-100 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-6 pt-20 pb-10" id="contact">
+<div class="mx-auto max-w-7xl">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">local_hospital</span>
+<h2 class="text-xl font-bold tracking-tight">RSU Ponorogo Sejahtera</h2>
+</div>
+<p class="text-slate-500 text-sm leading-relaxed">
+                            Fasilitas medis terkemuka yang didedikasikan untuk memberikan perawatan berkualitas tinggi dan penuh kasih melalui inovasi dan keunggulan.
+                        </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors group" href="#">
+<span class="material-symbols-outlined text-slate-600 dark:text-slate-400 group-hover:text-white">public</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors group" href="#">
+<span class="material-symbols-outlined text-slate-600 dark:text-slate-400 group-hover:text-white">chat_bubble</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors group" href="#">
+<span class="material-symbols-outlined text-slate-600 dark:text-slate-400 group-hover:text-white">mail</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col gap-6">
+<h5 class="font-bold text-lg">Tautan Cepat</h5>
+<ul class="flex flex-col gap-4 text-sm text-slate-500">
+<li><a class="hover:text-primary transition-colors" href="#">Cari Dokter</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Buat Janji Temu</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Departemen Kami</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Portal Pasien</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Kesempatan Karir</a></li>
+</ul>
+</div>
+<div class="flex flex-col gap-6">
+<h5 class="font-bold text-lg">Dukungan</h5>
+<ul class="flex flex-col gap-4 text-sm text-slate-500">
+<li><a class="hover:text-primary transition-colors" href="#">Pusat Bantuan</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Kebijakan Privasi</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Ketentuan Layanan</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Protokol Darurat</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">FAQ</a></li>
+</ul>
+</div>
+<div class="flex flex-col gap-6">
+<h5 class="font-bold text-lg">Info Kontak</h5>
+<ul class="flex flex-col gap-4 text-sm text-slate-500">
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary text-sm">location_on</span>
+<span>Jl. Sehat Selalu No. 123, Ponorogo, Jawa Timur</span>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary text-sm">call</span>
+<span>(0352) 1234567</span>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary text-sm">mail</span>
+<span>info@rsuponorogo.co.id</span>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary text-sm">schedule</span>
+<span>Buka 24 Jam / 7 Hari</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-10 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="text-xs text-slate-500">© 2023 RSU Ponorogo Sejahtera. Hak cipta dilindungi undang-undang.</p>
+<div class="flex gap-8">
+<button class="text-xs font-bold text-primary hover:underline">Pernyataan Aksesibilitas</button>
+<button class="text-xs font-bold text-primary hover:underline">Kebijakan Cookie</button>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
