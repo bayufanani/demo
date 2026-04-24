@@ -291,6 +291,15 @@ body {
     font-weight: 700;
 }
 
+.project-header a {
+    color: var(--text-color);
+    transition: var(--transition);
+}
+
+.project-header a:hover {
+    color: var(--accent);
+}
+
 .project-card p {
     color: var(--text-muted);
     margin-bottom: 1.5rem;
